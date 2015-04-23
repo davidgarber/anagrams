@@ -1,6 +1,6 @@
 class String
-  define_method(:anagrams) do |arg1, arg2|
-    sorted_args = [arg1.chars.sort.join, arg2.chars.join]
+  define_method(:anagrams) do |arg1, arg2, arg3|
+    sorted_args = [arg1.chars.sort.join, arg2.chars.join, arg3.chars.join]
 
     phrase = self
     phrase_words = phrase.split(' ')
